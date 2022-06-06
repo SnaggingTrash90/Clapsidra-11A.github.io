@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+html,
+body {
+  height: 100px;
+  margin: 0;
+  font-family: Lato, sans-serif;
+  background-image: url(relojdefondo.jpg);
+}
+header{
+backdrop-filter: blur(30px);  
+background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffaf03, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0000ff, #ff0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

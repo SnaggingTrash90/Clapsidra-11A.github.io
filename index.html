@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="#" />      
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">	         
+    <link rel="stylesheet" href="jqueryUI/jquery-ui-1.12.1/jquery-ui.min.css">  
+      
+	<link rel="stylesheet" href="estilos.css">
+  <link rel="icon" href="icono.png">
+    <title>Clepsidra</title>  
+  </head>
+  <body>
+     <header style="height: 70px">
+         <h2 class="text-center text-light">Ventanas Modales</h2> 
+     </header> 
+      <div style="height: 50px;"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="btn-group-vertical">
+                    <button id="btn1" class="btn btn-primary">¿Qué es un Clepsidra?</button>
+                    <button id="btn2" class="btn btn-primary">Historia de Clepsidra</button>
+                    <button id="btn3" class="btn btn-primary">Proceso de Fabricación</button>                    
+                    <button id="btn_custom" class="btn btn-primary">Formula Matematica</button>
+                </div>
+  
+            </div>                                        
+        </div>                  
+    </div>
+      
+<!--modal 1 - Ejemplo basico      -->
+<div id="modal1" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">¿Qué es un Clepsidra?</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Se conoce como clepsidra o reloj de agua a cualquier mecanismo para medir el tiempo mediante el flujo regulado de un líquido hacia o desde un recipiente graduado, dando así dos tipos diferentes de relojes según la dirección del flujo.    Las clepsidras datan de la antigüedad egipcia y se usaban especialmente durante la noche, cuando los relojes de sol perdían su utilidad. Los primeros relojes de agua consistían en una vasija de cerámica que contenía agua hasta cierto nivel, con un orificio en la base de un tamaño adecuado para asegurar la salida del líquido a una velocidad determinada y, por lo tanto, en un tiempo prefijado
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>  
+      
+
+<!-- Modal 2 - animado-->
+<div id="modal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!--      Para centrado-->
+  <div class="modal-dialog modal-dialog-centered" role="document">  
+
+<!--  <div class="modal-dialog" role="document">-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Historia de Clepsidra</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        No se conoce a ciencia cierta qué civilización fue la primera en usar estos relojes de agua. De hecho, los expertos hablan de una probable atribución a la civilización egipcia o la babilónica. Pero un jeroglífico egipcio atribuye su autoría a Amenemhat que inventó un «mrḫyt» en honor al rey Amenhetep I (1514-1494 ac). Y el resto más antiguo es también egipcio, que data 1.400 a.C.: la llamada clepsidra de Karnak. Se trata de una vasija de barro cocido con relieves en su parte externa y marcas para medir el tiempo en su parte interna. Su origen tuvo lugar en los tiempos de Amenhetep III, que gobernó de 1390 a 1353 ac.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Aceptar</button>
+
+      </div>
+    </div>
+  </div>
+</div>      
+
+  
+<!-- Modal 3 con scroll -->
+<div id="modal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal3Title" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal3Title">Proceso de creación</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Primero debemos tener los materiales, que son los siguientes:
+          <p>-2 botellas del mismo tamaño.</p>
+          <p>-las 2 tapas de esas botellas.</p>
+          <p>-la misma cantidad de agua y aceite para cada botella.</p>
+        <p>-pistola de silicon.</p>
+          <p>-1 barra de silicon.</p>
+        <p>-1 pitillo.</p>
+        <h6>
+        <br> 
+        <br>
+        <p><b>Paso 1: Pega las tapas entre si y hazles dos pequeños orificios.</b></p>
+        <p><b>Paso 2: recorta dos trozos del pitillo del mismo tamaño, aseguralos con silicona y atraviesa los orificios que hicimos anteriormente.</b></p>
+        <p><b>Paso 3: ahora rellena una botella con agua y la otra con aceite y las aseguramos con las tapas.</b></p>
+        <p><b>Paso 4: le ponemos silicona en el centro de las tapas para que no se salga el contenido y le damos la vuelta a nuestro clepsidra.</b></p>
+        <p><b>Paso 5: Debemos calcular el tiempo para saber cuanto dura el reloj.</b></p>
+      </h6>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Aceptar</button>
+    
+      </div>
+    </div>
+  </div>
+</div>   
+      
+
+<!--Para enviar parámetros      -->
+<br>    
+<div class="container">
+
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>      
+      
+      
+<!-- Modal - personalizado -->
+<div  id="modal_custom" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Formula</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <imagen hspace="20"></imagen>
+        <img src="for 1.jpeg" height="280">
+        <imagen hspace="20">
+        <img src="for 2.jpeg" height="280">
+        <image hspace="20">
+        <img src="for 3.jpeg" height="280">
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Aceptar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>        
+      
+    <script src="jquery/jquery-3.3.1.min.js"></script>	 	
+    <script src="popper/popper.min.js"></script>	 	 	
+    <script src="bootstrap4/js/bootstrap.min.js"></script>   	
+    <script src="jqueryUI/jquery-ui-1.12.1/jquery-ui.min.js"></script>  
+   
+    <script src="codigo.js"></script> 	  	
+  </body>
+</html>
